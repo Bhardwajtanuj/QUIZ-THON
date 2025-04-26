@@ -1,0 +1,49 @@
+
+
+{
+  "easy": {
+    "question": [
+      "Q1. Which year was Python created?",
+      "Q2. Who is the Director of JECRC?",
+      "Q3. Which country was Python created in?",
+      "Q4. Which City is JECRC located in?"
+    ],
+    "options": [
+      ["1990", "1989", "1991", "1981"],
+      ["Guido van Rossum", "Arpit Agarwal", "Dheemant Agarwal", "Ryan Gosling"],
+      ["USA", "United Kingdom", "Netherlands", "Denmark"],
+      ["Mumbai", "Udaipur", "Kota", "Jaipur"]
+    ],
+    "answer": [3, 2, 3, 4]
+  },
+  "medium": {
+    "question": [
+      "Q1. What is polymorphism?",
+      "Q2. What type of inheritance allows multiple parent classes?",
+      "Q3. What does `super()` do?",
+      "Q4. What is OOP's ability for objects to take many forms?"
+    ],
+    "options": [
+      ["A function behaves differently based on the object", "A class can inherit from multiple classes", "A variable can store different types of data", "A method is defined in multiple classes"],
+      ["Single Inheritance", "Multiple Inheritance", "Multilevel Inheritance", "Hierarchical Inheritance"],
+      ["It calls the constructor of the parent class", "It defines a new method", "It accesses a global variable", "It handles exceptions"],
+      ["Inheritance", "Abstraction", "Polymorphism", "Encapsulation"]
+    ],
+    "answer": [0, 1, 0, 2]
+  },
+  "hard": {
+    "question": [
+      "Q1. What is a shallow copy?",
+      "Q2. What does `__init__()` do?",
+      "Q3. How do you handle exceptions in Python?",
+      "Q4. What does `type([]) is list` return?"
+    ],
+    "options": [
+      ["A shallow copy copies references, a deep copy copies actual objects", "A shallow copy copies actual objects, a deep copy copies references", "There is no difference", "A shallow copy is faster than a deep copy"],
+      ["It is used to initialize a class instance", "It is used to define the class", "It initializes class variables", "It is used to perform inheritance"],
+      ["`try-except`", "`if-else`", "`try-finally`", "`try-catch`"],
+      ["True", "False", "Error", "None of the above"]
+    ],
+    "answer": [0, 0, 0, 0]
+  }
+}
